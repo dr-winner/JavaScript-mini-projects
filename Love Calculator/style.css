@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(218, 204, 206);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 500px;
+    text-align: center;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 3px solid rgb(252, 169, 183);
+}
+
+.container h1{
+    color: pink;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.container h3{
+    color: pink;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.calculator{
+    margin-top: 20px;
+
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+}
+
+input[type="text"]{
+    width: 95%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: pink;
+    margin-top: 10px;
+
+}
+
+button{
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    font-weight: bolder;
+    background-color: pink;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#result{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: pink;
+}
